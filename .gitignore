@@ -1,0 +1,14 @@
+# Build output
+/bin/
+
+# Python venv (created by setup.sh / install.sh)
+/.venv/
+__pycache__/
+*.pyc
+
+# Large model files (downloaded by the installer at install time)
+/kokoro-v1.0.onnx
+/voices-v1.0.bin
+
+# Logs / scratch
+*.log
